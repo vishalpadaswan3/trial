@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vishalpadaswan3/trial/issues"
   },
-  "homepage": "https://github.com/vishalpadaswan3/trial#readme"
+  "homepage": "https://github.com/vishalpadaswan3/trial#readme",
+  "dependencies": {
+    "shortid": "^2.2.16"
+  }
 }
