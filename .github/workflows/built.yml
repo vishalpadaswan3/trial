@@ -1,10 +1,11 @@
 on: push 
 jobs:
-    second-job: 
+    fourth-job: 
         runs-on: ubuntu-latest
         steps:
              - run: node --version
              - run: npm --version
              - uses: actions/checkout@v2
-             - run: node index.js
-             
+             - run: npx eslint index.js
+
+
