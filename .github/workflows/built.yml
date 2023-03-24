@@ -1,0 +1,7 @@
+on: push # Run on push to main branch
+jobs:
+    firstjob: 
+        runs-on: windows-latest
+        steps:
+             - run: node --version
+             - run: npm --version
